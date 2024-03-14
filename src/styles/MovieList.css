@@ -1,0 +1,18 @@
+.row {
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1%;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+@media (max-width: 1200px){
+    .row {
+        align-items: center;
+        margin: 0;
+    }
+  }

@@ -1,0 +1,43 @@
+.movie-container {
+    width: 15rem;
+    border-radius: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+    background-color: white;
+    height: fit-content;
+    align-self: normal;
+    max-width: 200px;
+    align-items: center;
+    position: relative;
+}
+
+.gradient {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: linear-gradient(to top, black, transparent);
+    border-radius: 1rem;
+}
+.movie-image {
+    width: 100%;
+    height: 18rem;
+    border-radius: 1rem;
+}
+
+.movie-btn {
+    bottom: 5%;
+    text-align: center;
+    position: absolute;
+    border: none;
+    outline: none;
+    box-shadow: #999;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    /* box-shadow: 15px 15px 15px #000000; */
+    font-family: "Tektur", sans-serif;
+
+}
